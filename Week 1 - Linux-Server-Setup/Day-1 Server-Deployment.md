@@ -30,41 +30,37 @@ Deploy an Ubuntu Server virtual machine using VMware and verify basic connectivi
 
 ```bash
 hostnamectl
-<img width="475" height="294" alt="Hostnamectl ubtsvr" src="https://github.com/user-attachments/assets/7218e3f9-8849-4cc6-820a-93750bace889" />
-
 ```
+<img width="475" height="294" alt="Hostnamectl ubtsvr" src="https://github.com/user-attachments/assets/7218e3f9-8849-4cc6-820a-93750bace889" />
 
 ### Current User
 
 ```bash
 whoami
-<img width="221" height="33" alt="Whoami ubtsvr" src="https://github.com/user-attachments/assets/a43751fd-e38d-4eec-ae2e-493a8339ed23" />
-
 ```
+<img width="221" height="33" alt="Whoami ubtsvr" src="https://github.com/user-attachments/assets/a43751fd-e38d-4eec-ae2e-493a8339ed23" />
 
 ### Network Information
 
 ```bash
 ip a
-<img width="839" height="243" alt="(ip a) ubtsvr " src="https://github.com/user-attachments/assets/fea61815-df71-4462-92e0-721cb6e57b75" />
-
 ```
+<img width="839" height="243" alt="(ip a) ubtsvr " src="https://github.com/user-attachments/assets/fea61815-df71-4462-92e0-721cb6e57b75" />
 
 ### SSH Service Status
 
 ```bash
 sudo systemctl status ssh --no-pager
-<img width="696" height="127" alt="Status ssh ubtsvr" src="https://github.com/user-attachments/assets/12e956a3-e15c-4a3d-928f-742179228f30" />
-
 ```
+<img width="696" height="127" alt="Status ssh ubtsvr" src="https://github.com/user-attachments/assets/12e956a3-e15c-4a3d-928f-742179228f30" />
 
 ### Package Update
 
 ```bash
 sudo apt upgrade -y
+```
 <img width="1116" height="128" alt="apt upgrade ubtsvr" src="https://github.com/user-attachments/assets/08d16a12-921e-4e4c-8f5b-da7b3bb798f9" />
 
-```
 
 ## Result
 
